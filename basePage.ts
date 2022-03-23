@@ -8,7 +8,7 @@ interface Options {
     /* oh my gosh samezies*/
 }
 
-export class BasePage {
+export class basePage {
     driver: WebDriver;
     url: string;
 
