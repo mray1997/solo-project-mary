@@ -3,7 +3,7 @@ import {basePage} from "./basePage"
 
 export class Etsy extends basePage {
     searchBar: By = By.xpath('//input[@id="global-enhancements-search-query"]');
-    results: By = By.xpath('//span[text()="594 results,"]');
+    results: By = By.xpath('//span[text()="247 results,"]');
     addToCart: By = By.xpath('//button[@class="wt-btn wt-btn--filled wt-width-full"]');
     qaMug: By = By.xpath('//li[@class="wt-list-unstyled wt-grid__item-xs-6 wt-grid__item-md-4 wt-grid__item-lg-3 wt-order-xs-0 wt-order-md-0 wt-order-lg-0 wt-show-xs wt-show-md wt-show-lg"]');
     signIn: By = By.xpath('//button[@class="wt-btn wt-btn--small wt-btn--transparent wt-mr-xs-1 inline-overlay-trigger signin-header-action select-signin"]');
